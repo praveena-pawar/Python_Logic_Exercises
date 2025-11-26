@@ -11,3 +11,17 @@ x = x - y      # step 3
 print("Q1 output:", x, y)
 
 # and the out put is x = 2 and y = 5
+
+
+
+# Q2. Predict the output
+a = 10
+b = 3
+
+a = a * b      # step 1
+b = a // b     # step 2
+a = a // b     # step 3
+
+print("Q2 output:", a, b)
+
+# and the out put is a = 3 and b = 10

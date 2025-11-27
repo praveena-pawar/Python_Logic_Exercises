@@ -64,3 +64,23 @@ b = a - c        # step 5
 print("Q4 output :", a, b, c)
 
 # and the output is a = 15 , b = 10 and c = 5
+
+
+
+
+
+# Q5. Predict the Output (Now slightly more tricky — involves order of updates)
+x = 8
+y = 3
+z = 4
+
+x = x - y        # step 1
+y = y * z        # step 2
+z = x + y        # step 3
+y = z - x        # step 4
+x = x + y + z    # step 5
+
+print("Q5 output :", x, y, z)
+
+# and the output is x = 34, y = 12 and z = 17 
+

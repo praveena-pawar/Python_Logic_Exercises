@@ -84,3 +84,24 @@ print("Q5 output :", x, y, z)
 
 # and the output is x = 34, y = 12 and z = 17 
 
+
+
+
+
+# Q6. Predict the Output (This is the toughest so far — but you can do it!)
+a = 7
+b = 2
+c = 5
+d = 3
+
+a = a + b        # step 1
+b = b + c        # step 2
+c = c + d        # step 3
+d = a + c        # step 4
+a = d - b        # step 5
+
+print("Q6 output :", a, b, c, d)
+
+# and the output a = 10, b = 7, c = 8 and d = 17
+ 
+

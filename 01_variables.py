@@ -105,3 +105,21 @@ print("Q6 output :", a, b, c, d)
 # and the output a = 10, b = 7, c = 8 and d = 17
  
 
+
+
+# Q7. Predict the Output (Very Tricky)
+x = 3
+y = 9
+z = 4
+
+x = y - x        # step 1
+y = x + z        # step 2
+z = y - z        # step 3
+x = x + y + z    # step 4
+y = x - z        # step 5
+
+print("Q7 output :",x, y, z)
+
+# and the output is x = 22, y = 16 and z = 6
+
+

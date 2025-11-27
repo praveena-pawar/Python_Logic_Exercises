@@ -47,3 +47,20 @@ print("Q3 output :", x, y, z)
 # and the output is x = 10, y = 8, z = 2
 
 
+
+
+
+# Q4. Predict the Output (slightly harder now)
+a = 5
+b = 12
+c = 3
+
+a = a * 2        # step 1
+b = b - a        # step 2
+c = c + b        # step 3
+a = a + c        # step 4
+b = a - c        # step 5
+
+print("Q4 output :", a, b, c)
+
+# and the output is a = 15 , b = 10 and c = 5

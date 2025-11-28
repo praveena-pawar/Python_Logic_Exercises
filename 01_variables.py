@@ -123,3 +123,24 @@ print("Q7 output :",x, y, z)
 # and the output is x = 22, y = 16 and z = 6
 
 
+
+
+
+
+# Q8. Hardest Logic Update So Far
+a = 4
+b = 7
+c = 2
+d = 5
+
+a = b + c        # step 1
+b = a - d        # step 2
+c = b + d        # step 3
+d = a + b + c    # step 4
+a = d - c        # step 5
+
+print("Q8 output :", a, b, c, d)
+
+#and the output is a = 13, b = 4 , c = 9 and d = 22
+
+

@@ -29,3 +29,21 @@ else:
 print("Q2 output :", a, b)
 
 # and the output is a = 7 and b = 5
+
+
+
+
+
+# Q3. Conditional + Logical Operators
+x = 8
+y = 3
+z = 10
+
+if x > y and z > x:
+    x = x + z
+else:
+    y = y + z
+
+print("Q3 output :", x, y, z)
+
+# and the output x = 18 , y = 3 and z = 10

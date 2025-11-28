@@ -47,3 +47,22 @@ else:
 print("Q3 output :", x, y, z)
 
 # and the output x = 18 , y = 3 and z = 10
+
+
+
+
+
+
+# Q4. Conditional + Logical OR
+a = 5
+b = 10
+c = 7
+
+if a > b or c < a:
+    a = a + c
+else:
+    b = b + c
+
+print("Q4 output :", a, b, c)
+
+#  and the output a = 5, b = 17, c = 7

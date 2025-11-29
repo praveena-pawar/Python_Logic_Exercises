@@ -66,3 +66,23 @@ else:
 print("Q4 output :", a, b, c)
 
 #  and the output a = 5, b = 17, c = 7
+
+
+
+
+
+# Q5. harder conditional logic
+x = 6
+y = 9
+z = 4
+
+if x + y > z * 2:
+    x = x + z
+elif y - z < x:
+    y = y + x
+else:
+    z = z + y
+
+print("Q5 output :", x, y, z)
+
+# and the output x = 10, y = 9 and  z = 4

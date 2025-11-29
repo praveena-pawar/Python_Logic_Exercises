@@ -1,6 +1,5 @@
 # Python_Logic_Exercises
 
-# Python Logic Exercises
 
 This repository contains Python exercises for building strong logic skills:
 - Variables

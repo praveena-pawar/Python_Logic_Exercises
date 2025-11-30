@@ -103,3 +103,24 @@ else:
 
 
 # and the output X
+
+
+
+
+
+
+# Q6. Predict the Output
+age = 20
+has_id = True
+is_student = False
+
+if age >= 18:
+    if has_id and not is_student:
+        if age % 2 == 0:
+            print("Allowed")
+        else:
+            print("Check Again")
+    else:
+        print("ID Required")
+else:
+    print("Not Allowed")

@@ -81,3 +81,25 @@ else:
     print("C")
 
 #  and the output C 
+
+
+
+
+
+# Q5. Predict the Output
+a = 7
+b = 3
+c = 9
+
+if a < b or c > a:
+    if not (b * 3 == a):
+        print("X")
+    elif c - a > b:
+        print("Y")
+    else:
+        print("Z")
+else:
+    print("W")
+
+
+# and the output X

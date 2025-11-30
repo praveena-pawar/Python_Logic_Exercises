@@ -124,3 +124,5 @@ if age >= 18:
         print("ID Required")
 else:
     print("Not Allowed")
+
+# and the output Allowed

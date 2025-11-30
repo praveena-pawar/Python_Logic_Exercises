@@ -62,3 +62,22 @@ else:
 
 
 # and the output X
+
+
+
+
+
+# Q4. Predict the Output
+x = 10
+y = 5
+z = 0
+
+if x > y and not (y > z):
+    if x - y == z:
+        print("A")
+    else:
+        print("B")
+else:
+    print("C")
+
+#  and the output C 

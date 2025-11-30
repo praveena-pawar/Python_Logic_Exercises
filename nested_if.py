@@ -39,3 +39,26 @@ else:
 print("Q2 output :", x, y, z)
 
 # and the ouptut x = 17, y = 10, z = 5
+
+
+
+
+
+
+# Q3. Predict the Output
+a = 10
+b = 5
+c = 20
+
+if a > b and (c < a or b == 5):
+    if c > a + b:
+        print("X")
+    elif c == a + b:
+        print("Y")
+    else:
+        print("Z")
+else:
+    print("No Match")
+
+
+# and the output X

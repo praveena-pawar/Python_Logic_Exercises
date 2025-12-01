@@ -7,3 +7,20 @@ for i in range(3):
 print(x)
  
 # and the output x = 3
+
+
+
+
+
+# Q2. Predict the output
+x = 10
+
+for i in range(1, 4):   # i = 1, 2, 3
+    if i % 2 == 0:
+        x = x - i
+    else:
+        x = x + i
+
+print(x)
+
+# and the output x = 12

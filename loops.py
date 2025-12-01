@@ -24,3 +24,22 @@ for i in range(1, 4):   # i = 1, 2, 3
 print(x)
 
 # and the output x = 12
+
+
+
+
+
+
+
+# Q3. Predict the output
+y = 5
+
+for i in range(2, 7):   # i = 2, 3, 4, 5, 6
+    if y % 2 == 0:
+        y = y + i
+    else:
+        y = y - i
+
+print(y)
+
+# and the output y = 3

@@ -43,3 +43,22 @@ for i in range(2, 7):   # i = 2, 3, 4, 5, 6
 print(y)
 
 # and the output y = 3
+
+
+
+
+
+
+
+# Q4. Predict the output
+x = 1
+
+for i in range(1, 6):     # i = 1,2,3,4,5
+    if i % 2 == 0:
+        x = x * i
+    else:
+        x = x + i
+
+print(x)
+
+# and the output x = 33

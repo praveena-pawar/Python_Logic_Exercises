@@ -62,3 +62,23 @@ for i in range(1, 6):     # i = 1,2,3,4,5
 print(x)
 
 # and the output x = 33
+
+
+
+
+
+
+
+# Q5 — Predict the Output (Loop + Conditions + Updates)
+x = 10
+y = 2
+
+for i in range(1, 5):    # i = 1,2,3,4
+    if x % i == 0:
+        x = x // i
+    else:
+        y = y + i
+
+print(x, y)
+
+# and the output x = 5 and y = 9

@@ -82,3 +82,17 @@ for i in range(1, 4):       # i = 1,2,3
 print("Q5 output :", total)
 
 # and the output 12
+
+
+
+
+
+# Q6 — Loops + Nested If + Logical Operators
+total = 1
+for i in range(1, 5):
+    for j in range(i, 0, -1):
+        if (i + j) % 2 == 0:
+            total *= (i + j)
+        else:
+            total -= (i - j)
+print("Q6 output :", total)

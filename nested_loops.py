@@ -96,3 +96,21 @@ for i in range(1, 5):
         else:
             total -= (i - j)
 print("Q6 output :", total)
+
+# and the output 7863
+
+
+
+
+
+# Q7 — Loops + Nested If + Logical Operators
+total = 1
+for i in range(2, 6):
+    for j in range(1, i):
+        if j == 1 or j == i-1:
+            total *= (i - j)
+        else:
+            total += (i + j)
+print("Q7 output :", total)
+
+# and the output 63

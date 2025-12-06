@@ -114,3 +114,22 @@ for i in range(2, 6):
 print("Q7 output :", total)
 
 # and the output 63
+
+
+
+
+
+# Q8 — Loops + Nested If + Logical Operators
+s = 10
+for i in range(3, 7):
+    for j in range(2, i):
+        if (i * j) % 3 == 0:
+            s += i - j
+        elif (i + j) % 4 == 0:
+            s -= i
+        else:
+            s += j
+print("Q8 output:", s)
+
+# and the output 32
+

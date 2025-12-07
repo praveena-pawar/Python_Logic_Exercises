@@ -4,3 +4,12 @@ for i in range(1, 4):
         print("*", end="")
     print()
 
+
+
+
+
+# Q2 — Right-Angled Number Pattern
+for i in range(1, 5):          # i = 1,2,3,4
+    for j in range(1, i+1):     # j = 1 to i
+        print(j, end="")
+    print()

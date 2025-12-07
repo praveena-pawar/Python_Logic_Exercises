@@ -4,7 +4,8 @@ for i in range(1, 4):
         print("*", end="")
     print()
 
-
+# Q1 output
+#  
 
 
 

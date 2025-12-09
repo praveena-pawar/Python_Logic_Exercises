@@ -46,6 +46,14 @@ for i in range(1, n+1):
 
 
 
+# 4. Reverse Triangle
 n = 5
 for i in range(n, 0, -1):
     print("*" * i)
+
+# Q4 output 
+# *****
+# ****
+# ***
+# **
+# *

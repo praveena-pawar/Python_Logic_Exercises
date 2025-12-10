@@ -132,3 +132,18 @@ else:
     print("Second")
 
 # and the output Second
+
+
+
+
+# Q9 Predict the Output – Conditional Statements
+age = 18
+if age >= 18:
+    if age == 18:
+        print("Just eligible")
+    else:
+        print("Adult")
+else:
+    print("Not eligible")
+
+# and the output just eligible

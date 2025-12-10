@@ -86,3 +86,18 @@ else:
 print("Q5 output :", x, y, z)
 
 # and the output x = 10, y = 9 and  z = 4
+
+
+
+
+
+# Q6 Predict the Output – Conditional Statements
+x = 10
+if x > 5:
+    print("A")
+if x > 8:
+    print("B")
+else:
+    print("C")
+
+# and the output A B

@@ -147,3 +147,18 @@ else:
     print("Not eligible")
 
 # and the output just eligible
+
+
+
+
+# Q10 Predict the Output – Conditional Statements
+x = 3
+y = 4
+if x + y > 10:
+    print("Big")
+elif x * y >= 12:
+    print("Medium")
+else:
+    print("Small")
+
+# and the output Medium

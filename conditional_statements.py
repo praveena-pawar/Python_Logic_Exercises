@@ -116,3 +116,19 @@ else:
     print("Odd")
 
 # and the output Remainder 1    
+
+
+
+
+
+# Q8 Predict the Output – Conditional Statements
+a = 5
+b = 10
+if a > b:
+    print("First")
+elif a == b:
+    print("Equal")
+else:
+    print("Second")
+
+# and the output Second

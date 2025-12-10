@@ -162,3 +162,15 @@ else:
     print("Small")
 
 # and the output Medium
+
+
+#  Q10 Predict the Output – Conditional Statements
+x = 15
+if x < 10:
+    print("Low")
+elif x < 20:
+    print("Mid")
+if x > 10:
+    print("High")
+
+# and the output mid high 

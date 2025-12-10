@@ -101,3 +101,18 @@ else:
     print("C")
 
 # and the output A B
+
+
+
+
+
+# Q7 Predict the Output – Conditional Statements
+n = 7
+if n % 2 == 0:
+    print("Even")
+elif n % 3 == 1:
+    print("Remainder 1")
+else:
+    print("Odd")
+
+# and the output Remainder 1    

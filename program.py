@@ -55,3 +55,21 @@ print("soretd list:", sorted_list)
 
 unque_list = list(set(lst)) 
 print("unique list:", unque_list)
+
+
+
+
+
+# Q4. create a dictionary with student name(minimum 5) as keys and list a list of (subject, marks) tuples as values .
+# display student details along with total marks and percentage of each student.
+students = {
+    "Ravi": [("Math", 85), ("Science", 78), ("English", 90)],
+    "Sneha": [("Math", 92), ("Science", 88), ("English", 81)],
+    "Karan": [("Math", 76), ("Science", 70), ("English", 65)],
+    "Meera": [("Math", 89), ("Science", 95), ("English", 92)],
+    "Ajay": [("Math", 60), ("Science", 55), ("English", 72)]
+}
+for name, marks in students.items():
+    total = sum(marks for subjects, marks in marks)
+    percent = total / len(marks)
+    print(f"\n{name}'s total marks :{total}, percentage :{percent}%")

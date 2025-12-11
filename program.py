@@ -73,3 +73,33 @@ for name, marks in students.items():
     total = sum(marks for subjects, marks in marks)
     percent = total / len(marks)
     print(f"\n{name}'s total marks :{total}, percentage :{percent}%")
+
+
+
+
+
+
+# Q5. implement Depth-First search (DFS) on small program
+# Graph represented as a dictionary (Adjacency List)
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': [],
+    'E': ['F'],
+    'F': []
+}
+
+visited = set()   # To keep track of visited nodes
+
+def dfs(node):
+    if node not in visited:
+        print(node, end=" ")
+        visited.add(node)
+
+        for neighbour in graph[node]:
+            dfs(neighbour)
+
+# Starting DFS from node 'A'
+print("DFS Traversal:")
+dfs('A')

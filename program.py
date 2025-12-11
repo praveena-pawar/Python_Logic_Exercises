@@ -103,3 +103,32 @@ def dfs(node):
 # Starting DFS from node 'A'
 print("DFS Traversal:")
 dfs('A')
+
+
+
+
+
+
+
+#Q6. implement a basic rule-based expert system for weather classification
+# Basic Rule-Based Expert System for Weather Classification
+
+temp = int(input("Enter temperature (°C): "))
+humidity = int(input("Enter humidity (%): "))
+
+if temp > 30 and humidity > 60:
+    weather = "Hot and Humid"
+elif temp > 30 and humidity <= 60:
+    weather = "Hot and Dry"
+elif 20 <= temp <= 30 and humidity > 70:
+    weather = "Warm and Humid"
+elif 20 <= temp <= 30:
+    weather = "Pleasant"
+elif temp < 20 and humidity > 70:
+    weather = "Cold and Damp"
+elif temp < 20:
+    weather = "Cold"
+else:
+    weather = "Unclassified"
+
+print("Weather Condition:", weather)

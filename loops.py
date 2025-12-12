@@ -115,3 +115,18 @@ for i in range(5):
 print(a, b)
 
 # and the output 11 2
+
+
+
+
+# Q7 — Predict the Output (Loop + Conditions + Updates)
+total = 0
+for i in range(1, 8):
+    if i % 2 == 0:
+        total += i // 2
+    else:
+        total = total * 2 + 1
+    if total > 15:
+        total -= 5
+print(total)
+

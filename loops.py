@@ -98,3 +98,18 @@ for i in range(1, 6):
 print(x)
 
 # and the output 7
+
+
+
+
+# Q7 — Predict the Output (Loop + Conditions + Updates)
+a = 3
+b = 1
+for i in range(5):
+    if (a + b) % 2 == 0:
+        a -= i
+        b += 2
+    else:
+        a += 3
+        b -= 1
+print(a, b)

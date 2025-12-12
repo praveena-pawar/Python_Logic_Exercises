@@ -113,3 +113,5 @@ for i in range(5):
         a += 3
         b -= 1
 print(a, b)
+
+# and the output 11 2

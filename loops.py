@@ -130,3 +130,4 @@ for i in range(1, 8):
         total -= 5
 print(total)
 
+# and the output 22

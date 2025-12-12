@@ -131,3 +131,20 @@ for i in range(1, 8):
 print(total)
 
 # and the output 22
+
+
+
+
+# Q8 — Predict the Output (Loop + Conditions + Updates)
+n = 5
+result = 1
+for i in range(1, n+1):
+    if result % 2 == 0:
+        result += i
+    else:
+        result *= i
+    if result > 20:
+        result //= 2
+print(result)
+
+# and the output 12

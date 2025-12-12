@@ -84,3 +84,17 @@ print(x, y)
 # and the output x = 5 and y = 9
 
 
+
+
+# Q6 — Predict the Output (Loop + Conditions + Updates)
+x = 7
+for i in range(1, 6):
+    if x % i == 0:
+        x += i
+    else:
+        x -= 1
+    if x < 5:
+        break
+print(x)
+
+# and the output 7

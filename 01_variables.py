@@ -144,3 +144,20 @@ print("Q8 output :", a, b, c, d)
 #and the output is a = 13, b = 4 , c = 9 and d = 22
 
 
+
+
+# Q9. Most Tricky
+m = 2
+n = m + 5
+o = n * m
+
+m = o - n
+n = m + o
+o = n - m
+
+m = o + n - m
+print("Q9 output :", m, n, o)
+
+# and the output is m = 28, n = 21 and o = 14
+
+

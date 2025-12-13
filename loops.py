@@ -162,3 +162,5 @@ for i in range(2, 6):
     if value < 3:
         value += i * 2
 print(value)
+
+# and the output 16

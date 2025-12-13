@@ -164,3 +164,19 @@ for i in range(2, 6):
 print(value)
 
 # and the output 16
+
+
+
+
+# Q10 — Most Difficult
+a, b = 2, 9
+for i in range(1, 6):
+    if a * b % i == 0:
+        a += i
+        b -= 1
+    else:
+        a -= 1
+        b += i
+    if a > b:
+        break
+print(a, b)

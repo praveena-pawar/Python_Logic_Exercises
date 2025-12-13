@@ -148,3 +148,17 @@ for i in range(1, n+1):
 print(result)
 
 # and the output 12
+
+
+
+
+# Q9 — Predict the Output (Loop + Conditions + Updates)
+value = 8
+for i in range(2, 6):
+    if value % i == 0:
+        value = value // 2
+    else:
+        value += i
+    if value < 3:
+        value += i * 2
+print(value)

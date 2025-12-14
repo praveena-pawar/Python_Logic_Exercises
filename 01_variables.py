@@ -161,3 +161,19 @@ print("Q9 output :", m, n, o)
 # and the output is m = 28, n = 21 and o = 14
 
 
+
+
+
+# Q10. Predict the Output (Very Tricky)
+a = 6
+b = a + 2
+c = b - a
+
+a = b * c
+b = a + c
+c = b - a
+
+b = c + b
+print(a, b, c)
+
+

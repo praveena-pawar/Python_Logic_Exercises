@@ -181,5 +181,4 @@ for i in range(1, 6):
         break
 print(a, b)
 
-
 # and the output 7 14

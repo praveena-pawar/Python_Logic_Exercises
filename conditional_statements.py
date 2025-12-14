@@ -164,7 +164,9 @@ else:
 # and the output Medium
 
 
-#  Q10 Predict the Output – Conditional Statements
+
+
+#  Q11 Predict the Output – Conditional Statements
 x = 15
 if x < 10:
     print("Low")

@@ -20,7 +20,6 @@ print("Q1 output :", a, b, c)
 
 
 
-
 # Q2. Tricky Conditional + Logical Operators + Nested If
 x = 7
 y = 10
@@ -60,7 +59,6 @@ else:
 
 
 # and the output X
-
 
 
 

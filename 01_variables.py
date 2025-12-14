@@ -174,6 +174,6 @@ b = a + c
 c = b - a
 
 b = c + b
-print(a, b, c)
+print("Q10 output :", a, b, c)
 
 # and the output a = 16, b = 20 and c = 2 

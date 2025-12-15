@@ -165,3 +165,5 @@ if x > 5:
                 print("Odd")
 else:
     print("Small")
+
+# and the output for Q8 : "Lucky"

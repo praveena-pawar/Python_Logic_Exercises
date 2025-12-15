@@ -122,3 +122,22 @@ else:
     print("Not Allowed")
 
 # and the output Allowed
+
+
+
+
+# Q7. Predict the Output
+a = 10
+b = 5
+c = 20
+
+if a > b:
+    if b > c:
+        print("A")
+    else:
+        if a + b == c:
+            print("B")
+        else:
+            print("C")
+else:
+    print("D")

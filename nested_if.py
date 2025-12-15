@@ -167,3 +167,24 @@ else:
     print("Small")
 
 # and the output for Q8 : "Lucky"
+
+
+
+
+
+
+# Q9. Predict the Output
+a = 3
+b = 6
+c = 9
+
+if a + b > c:
+    print("X")
+else:
+    if b * a == c:
+        if c - b == a:
+            print("Y")
+        else:
+            print("Z")
+    else:
+        print("W")

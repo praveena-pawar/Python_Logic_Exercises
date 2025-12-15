@@ -143,3 +143,25 @@ else:
     print("D")
 
 # and the output for Q7 : c
+
+
+
+
+
+
+# Q8. Predict the Output
+x = 7
+
+if x > 5:
+    if x % 2 == 0:
+        print("Even")
+    else:
+        if x > 10:
+            print("Big Odd")
+        else:
+            if x == 7:
+                print("Lucky")
+            else:
+                print("Odd")
+else:
+    print("Small")

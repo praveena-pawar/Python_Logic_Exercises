@@ -141,3 +141,5 @@ if a > b:
             print("C")
 else:
     print("D")
+
+# and the output for Q7 : c

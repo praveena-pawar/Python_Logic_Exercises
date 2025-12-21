@@ -220,3 +220,5 @@ else:
     b = b + c
 
 print(a, b, c)
+
+# and the output got Q10 : 6, 4 and 3

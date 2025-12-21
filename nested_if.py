@@ -190,3 +190,33 @@ else:
         print("W")
 
 # and the output got Q9 : w
+
+
+
+
+# Q10. Predict the Output – HARD (Nested if)
+a = 7
+b = 4
+c = 10
+
+if a + b > c:
+    if a > b:
+        c = c - a
+        if c < b:
+            a = a + c
+        else:
+            b = b + a
+    else:
+        a = a * 2
+else:
+    c = c + b
+
+if a + c > b:
+    if b % 2 == 0:
+        a = a - b
+    else:
+        c = c - a
+else:
+    b = b + c
+
+print(a, b, c)

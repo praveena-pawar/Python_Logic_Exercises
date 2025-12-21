@@ -134,4 +134,3 @@ print("Q8 output:", s)
 # and the output 32
 
 
-

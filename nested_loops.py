@@ -147,3 +147,21 @@ for i in range(1, 5):
     print(x)
 
 # and the output is 2, 3, 12 and 17
+
+
+
+
+
+# Q10 — Loops + Nested If + Logical Operators(Very Tricky)
+count = 1
+for i in range(1, 4):
+    for j in range(1, 4):
+        if i == j:
+            count *= i
+        elif (i + j) % 2 == 0:
+            count += j
+        else:
+            count -= i
+    if count % 2 == 0:
+        count //= 2
+    print(count)

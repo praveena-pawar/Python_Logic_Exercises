@@ -136,6 +136,7 @@ print("Q8 output:", s)
 
 
 
+# Q9 — Loops + Nested If + Logical Operators
 x = 2
 for i in range(1, 5):
     for j in range(i):
@@ -145,3 +146,4 @@ for i in range(1, 5):
             x -= j
     print(x)
 
+# and the output is 2, 3, 12 and 17

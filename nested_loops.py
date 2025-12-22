@@ -165,3 +165,5 @@ for i in range(1, 4):
     if count % 2 == 0:
         count //= 2
     print(count)
+
+#and the output is 3, 0 and -3

@@ -134,3 +134,14 @@ print("Q8 output:", s)
 # and the output 32
 
 
+
+
+x = 2
+for i in range(1, 5):
+    for j in range(i):
+        if (x + i + j) % 2 == 0:
+            x += i
+        else:
+            x -= j
+    print(x)
+

@@ -177,4 +177,3 @@ b = c + b
 print("Q10 output :", a, b, c)
 
 # and the output a = 16, b = 20 and c = 2 
-

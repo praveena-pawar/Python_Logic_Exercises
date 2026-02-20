@@ -175,4 +175,5 @@ elif x < 20:
 if x > 10:
     print("High")
 
+
 # and the output mid high 

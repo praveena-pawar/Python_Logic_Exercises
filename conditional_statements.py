@@ -197,3 +197,25 @@ else:
     print("D")
 
 #output is : A
+
+
+
+
+
+# Q 13 : Predict the Output – Conditional Statements:
+
+a = 7
+b = 3
+
+if a > 5:
+    if b > 5:
+        print("X")
+    elif a - b == 4:
+        if b % 2 == 1:
+            print("Y")
+        else:
+            print("Z")
+    else:
+        print("W")
+else:
+    print("P")

@@ -177,3 +177,21 @@ if x > 10:
 
 
 # and the output mid high 
+
+
+
+
+# Q12 Predict the Output – Conditional Statements:
+
+x = 5
+y = 10
+
+if x < y:
+    if x + y > 12:
+        print("A")
+    elif x * 2 == y:
+        print("B")
+    else:
+        print("C")
+else:
+    print("D")

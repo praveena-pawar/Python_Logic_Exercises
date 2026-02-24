@@ -219,3 +219,5 @@ if a > 5:
         print("W")
 else:
     print("P")
+
+#output is : Y

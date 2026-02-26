@@ -243,3 +243,6 @@ if a > b:
         print("P")
 else:
     print("Q")
+
+#output:
+#N

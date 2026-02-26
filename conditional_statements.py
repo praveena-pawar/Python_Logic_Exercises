@@ -222,3 +222,24 @@ else:
 
 #output is : 
 #Y
+
+
+
+
+# Q14 predict the output :
+
+a = 4
+b = 2
+c = 6
+
+if a > b:
+    if b > c:
+        print("M")
+    elif a + b == c:
+        print("N")
+    elif c % a == 2:
+        print("O")
+    else:
+        print("P")
+else:
+    print("Q")
